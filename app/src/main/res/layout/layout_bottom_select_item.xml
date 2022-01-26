@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_42sdp"
+    android:background="#F4F4F4">
+
+        <ImageView
+            android:id="@+id/clickShare"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentLeft="true"
+            android:onClick="clickShare"
+            android:padding="@dimen/_12sdp"
+            android:src="@drawable/ic_share"
+            app:tint="#535759" />
+        <TextView
+            android:id="@+id/txtCountItemSelected"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_40sdp"
+            android:padding="@dimen/_8sdp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="@string/select_item"
+            android:textStyle="bold"
+            android:textSize="@dimen/_18sdp"
+            android:onClick="clickFavorite"/>
+
+        <ImageView
+            android:id="@+id/clickDelete"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentRight="true"
+            android:onClick="clickDelete"
+            android:padding="@dimen/_12sdp"
+            android:src="@drawable/ic_delete"
+            app:tint="#535759" />
+</RelativeLayout>

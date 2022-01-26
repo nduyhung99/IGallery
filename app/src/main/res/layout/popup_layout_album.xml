@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:id="@+id/popup"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/border_popup_album">
+    <RelativeLayout
+        android:layout_width="@dimen/_160sdp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/imgAlbum"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            app:riv_corner_radius="@dimen/_10sdp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imgAlbum">
+            <TextView
+                android:id="@+id/txtAlbumName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/_4sdp"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/black"
+                android:text="snapsdfag"/>
+            <TextView
+                android:id="@+id/txtDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_marginLeft="@dimen/_4sdp"
+                android:text="12/11/2021"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgClosePopup"
+            android:layout_width="@dimen/_14sdp"
+            android:layout_height="@dimen/_14sdp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_close_popup_album_black" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray4"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_popup"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:layout_gravity="center_horizontal">
+        <RelativeLayout
+            android:id="@+id/layoutAddPhotos"
+            android:layout_width="@dimen/_146sdp"
+            android:layout_height="@dimen/_32sdp"
+            android:padding="@dimen/_8sdp">
+            <TextView
+                android:id="@+id/txtNewAlbum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_photos"
+                android:textSize="@dimen/_11sdp"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"/>
+            <ImageView
+                android:layout_width="@dimen/_12sdp"
+                android:layout_height="@dimen/_12sdp"
+                android:src="@drawable/ic_add_1"
+                android:layout_marginLeft="@dimen/_6sdp"
+                android:layout_alignParentRight="true"
+                app:tint="@color/black" />
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray3"/>
+        <RelativeLayout
+            android:id="@+id/layoutRenameAlbum"
+            android:layout_width="@dimen/_146sdp"
+            android:layout_height="@dimen/_32sdp"
+            android:padding="@dimen/_8sdp">
+            <TextView
+                android:id="@+id/txtNewFolder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rename_album"
+                android:textSize="@dimen/_11sdp"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"/>
+
+            <ImageView
+                android:layout_width="@dimen/_12sdp"
+                android:layout_height="@dimen/_12sdp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="@dimen/_6sdp"
+                android:src="@drawable/ic_rename" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

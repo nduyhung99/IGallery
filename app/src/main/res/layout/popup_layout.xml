@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:id="@+id/popup"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_popup"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/layoutCreateAlbum"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_32sdp"
+        android:padding="@dimen/_8sdp">
+        <TextView
+            android:id="@+id/txtNewAlbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_album"
+            android:textSize="@dimen/_11sdp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"/>
+        <ImageView
+            android:layout_width="@dimen/_26sdp"
+            android:layout_height="@dimen/_26sdp"
+            android:src="@drawable/ic_new_album"
+            android:layout_marginLeft="@dimen/_6sdp"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray5"/>
+    <RelativeLayout
+        android:id="@+id/layoutCreateFolder"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_32sdp"
+        android:padding="@dimen/_8sdp">
+        <TextView
+            android:id="@+id/txtNewFolder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_folder"
+            android:textSize="@dimen/_11sdp"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"/>
+        <ImageView
+            android:layout_width="@dimen/_26sdp"
+            android:layout_height="@dimen/_26sdp"
+            android:src="@drawable/ic_new_folder"
+            android:layout_marginLeft="@dimen/_6sdp"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

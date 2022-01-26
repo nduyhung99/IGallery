@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/drawable-v24/gradient_item_bin.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/drawable/border_popup.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/drawable/border_popup_album.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/drawable/gradient_item_year.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/drawable/shape_item_search.xml" value="0.362962962962963" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/drawable/shape_popup_menu.xml" value="0.362962962962963" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/drawable/size_icon_delete_text.xml" value="0.3769230769230769" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/activity_introduce.xml" value="0.2554347826086957" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/activity_main.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/albums_toolbar.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/custom_delete_album_dialog.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/custom_delete_dialog.xml" value="0.33" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/custom_delete_item_album_dialog.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/custom_dialog_create_album.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/custom_dialog_create_folder.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/custom_dialog_layout.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/custom_dialog_rename_album.xml" value="0.26268115942028986" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/custom_item_dialog.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/custom_move_to_trash_dialog.xml" value="0.25" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/custom_recover_dialog.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/fragment_albums.xml" value="0.33" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/fragment_bin.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/fragment_favorite.xml" value="0.33" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/fragment_image.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/fragment_item.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/fragment_item_in_albums.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/fragment_photos.xml" value="0.25" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/fragment_search.xml" value="0.25" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/fragment_settings.xml" value="0.33" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/item_add.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/item_bin.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/item_bucket.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/item_bucket_1.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/item_bucket_album.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/item_count.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/item_count_1.xml" value="0.26268115942028986" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/item_day.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/item_item.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/item_little.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/item_month.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/item_recently_search.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/item_search.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/item_space.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/item_suggestion.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/item_title_photo.xml" value="0.2694746376811594" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/item_year.xml" value="0.2694746376811594" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/layout_bottom_select_item.xml" value="0.33" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/layout_bottom_select_item_blue.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/layout_bottom_sheet_album.xml" value="0.25" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/layout_bottom_sheet_delete.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/layout_bottom_sheet_exit.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/layout_item_selected.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/popup_layout.xml" value="0.17831813576494426" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/layout/popup_layout_album.xml" value="0.33" />
+        <entry key="..\:/Projects/IGallery/IGallery/igallery/app/src/main/res/menu/menu_bottom_nav.xml" value="0.35462962962962963" />
+        <entry key="app/src/main/res/layout/activity_introduce.xml" value="0.5751811594202898" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.5166666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

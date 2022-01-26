@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_photos"
+        android:title="@string/library"
+        android:icon="@drawable/ic_photo"/>
+    <item android:id="@+id/action_albums"
+        android:title="@string/action_albums"
+        android:icon="@drawable/ic_albums"/>
+    <item android:id="@+id/action_search"
+        android:title="@string/action_search"
+        android:icon="@drawable/ic_search"/>
+    <item android:id="@+id/action_settings"
+        android:title="@string/more"
+        android:icon="@drawable/ic_more"/>
+</menu>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_120sdp"
+    android:orientation="vertical"
+    android:padding="@dimen/_2sdp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_2sdp"
+    android:layout_marginRight="@dimen/_10sdp"
+    android:layout_marginBottom="@dimen/_2sdp"
+    android:id="@+id/layoutButket">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_4sdp">
+        <ImageView
+            android:id="@+id/imageButket"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_height="@dimen/_120sdp"/>
+        <RelativeLayout
+            android:id="@+id/layoutEmptyFavorite"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_120sdp"
+            android:visibility="gone">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_120sdp"
+                android:src="@drawable/ic_favorite_lol"
+                android:padding="@dimen/_30sdp"
+                android:background="@color/gray3"/>
+
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/imgFavorite"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/ic_favorite_1"
+            android:layout_gravity="bottom"
+            app:tint="@color/white"
+            android:padding="@dimen/_2sdp"
+            android:visibility="gone"/>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/folderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="document"
+        android:textSize="@dimen/_12sdp"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+    <TextView
+        android:id="@+id/countItemInFolder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123"/>
+
+
+</LinearLayout>
